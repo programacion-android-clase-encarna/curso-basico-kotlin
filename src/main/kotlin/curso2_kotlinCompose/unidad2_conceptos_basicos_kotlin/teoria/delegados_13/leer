@@ -1,0 +1,5 @@
+Vamos a modificar el código de los setter de los atributos
+speakerVolume, channelNumber y brightnessLevel en las clases SmartTvDevice
+y SmartLightDevice en el paquete relacionesEntreClases_11 para
+hacer que esa tarea repetida la realice un delegado de propiedad.
+

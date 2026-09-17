@@ -1,0 +1,10 @@
+11. Prueba este desafío
+En la clase SmartDevice, define un método printDeviceInfo() que imprima una string "Device name: $name, category: $category, type: $deviceType".
+En la clase SmartTvDevice, define un método decreaseVolume() que disminuya el volumen y un método previousChannel() que navegue al canal anterior.
+En la clase SmartLightDevice, define un método decreaseBrightness() que disminuya el brillo.
+En la clase SmartHome, asegúrate de que todas las acciones solo se puedan realizar cuando la propiedad deviceStatus de cada dispositivo se establezca en una string "on". Además, asegúrate de que la propiedad deviceTurnOnCount esté actualizada correctamente.
+Cuando finalices la implementación, haz lo siguiente:
+
+En la clase SmartHome, define un método decreaseTvVolume(), changeTvChannelToPrevious(), printSmartTvInfo(), printSmartLightInfo() y decreaseLightBrightness().
+Llama a los métodos adecuados de las clases SmartTvDevice y SmartLightDevice en la clase SmartHome.
+En la función main(), llama a estos métodos agregados para probarlos.
