@@ -28,7 +28,8 @@ class SmartTvDevice(deviceName: String, deviceCategory: String) :
         println("Speaker volume increased to $speakerVolume.")
     }
 
-    protected fun nextChannel() {
+    //protected fun nextChannel() {
+    fun nextChannel() {
         channelNumber++
         println("Channel number increased to $channelNumber.")
     }
