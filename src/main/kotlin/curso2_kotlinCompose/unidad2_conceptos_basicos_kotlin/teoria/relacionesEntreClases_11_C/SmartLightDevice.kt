@@ -1,4 +1,4 @@
-package curso2_kotlinCompose.unidad2_conceptos_basicos_kotlin.teoria.relacionesEntreClases_11
+package curso2_kotlinCompose.unidad2_conceptos_basicos_kotlin.teoria.relacionesEntreClases_11_C
 
 /*
 RELACION DE HERENCIA ENTRE LA SUBCLASE SmartLightDevice y SmartDevice

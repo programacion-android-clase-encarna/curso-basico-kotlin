@@ -1,5 +1,9 @@
 package curso2_kotlinCompose.unidad2_conceptos_basicos_kotlin.teoria
 
+/*
+ Por defecto en Kotlin los tipos de datos son NO anulables, pero podemos usar ?
+ para permitir null
+ */
 fun main() {
     //Variables no nula pero con valor vacio: favoriteActor
     var favoriteActor= "None"  //o "NoBody"  o ""
