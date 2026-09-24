@@ -1,4 +1,4 @@
-package curso2_kotlinCompose.unidad3_mas_aspectos_basicos_kotlin.teoria.`10 colecciones`
+package curso2_kotlinCompose.unidad3_mas_aspectos_basicos_kotlin.ejercicios.`10 colecciones`
 /*
 Un conjunto o set es una estructura de datos que guarda elementos
 sin duplicados, del mismo tipo pero desordenados.
@@ -23,13 +23,12 @@ private fun set_mutable() {
     val solarSystem = mutableSetOf("Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune")
 
 
-    //Eliminar elemento
-    solarSystem.remove("Mercury")
+    //Eliminar elemento usando método remove, por ejemplo elimina planeta Mercury
+    //HACER_1
 
-    //Añadir elemento
-    solarSystem.add("Pluto")
+    //Añadir elemento usando add, por ejemplo añade al planeta Pluto
+    //HACER_2
 
-    for (planet in solarSystem) {
-        println(planet)
-    }
+    //Y lista a todos los planetas usando un for
+    //HACER_3
 }

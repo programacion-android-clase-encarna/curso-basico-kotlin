@@ -1,4 +1,4 @@
-package curso2_kotlinCompose.unidad3_mas_aspectos_basicos_kotlin.teoria.`10 colecciones`
+package curso2_kotlinCompose.unidad3_mas_aspectos_basicos_kotlin.ejercicios.`10 colecciones`
 
 /*
 Un Map es una colección que consta de claves y valores.
@@ -62,13 +62,14 @@ fun ejemplo1_mapa_mutable() {
     )
     //Mostrar el valor de la clave="Earth"
     //println("Moons of Earth="+ solarSystem.get("Earth"))
-    println("Moons of Earth= ${solarSystem.get("Earth")}")
+    //Muestra las lunas de la tierra de otra forma (sin usar +) es decir por interpolación
+    //HACER_1
 
-    //Modificar el valor de una clave
-    solarSystem.set("Pluto", 5)
+    //Modificar el valor de una clave usando set(). Por ejemplo asigna a Pluto 5 lunas
+    //HACER_2
 
-    //Eliminar un par a partir de su clave
-    solarSystem.remove("Mars")
+    //Eliminar un par a partir de su clave usando el método remove(). Por ejemplo elimina el planeta Mars
+    //HACER_3
 
     //Listar pares (clave-valor) del mapa
     for ((planet, moons) in solarSystem) {

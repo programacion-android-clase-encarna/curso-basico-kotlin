@@ -1,4 +1,4 @@
-package curso2_kotlinCompose.unidad3_mas_aspectos_basicos_kotlin.teoria.`10 colecciones`
+package curso2_kotlinCompose.unidad3_mas_aspectos_basicos_kotlin.ejercicios.`10 colecciones`
 
 /*
 Un array es una estructura de datos que almacena un conjunto aleatorio
@@ -13,11 +13,10 @@ fun main(){
 
     val gasPlanets = arrayOf("Jupiter", "Saturn", "Uranus", "Neptune")
 
-    //Usando el operador + puedes unir arrays
-    val solarSystem=rockPlanets+gasPlanets
+    //Usando el operador + puedes unir arrays para forma otra (solarSystem)
+    //HACER_1
 
-    println("RockPlanets=${rockPlanets.contentToString()}")
-    println("GasPlanets=${gasPlanets.contentToString()}")
-    println("SolarPlanets=${solarSystem.contentToString()}")
+    //Lista las 3 arrays usando el método contentToString()
+    //HACER_2
 
 }
